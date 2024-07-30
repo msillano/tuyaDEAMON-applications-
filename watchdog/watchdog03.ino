@@ -6,11 +6,8 @@
 #include <ESP8266WiFi.h>
 #include <arduino-timer.h>            // requires arduino-timer library
 
-// const char* ssid = "******";     // fill in here your router or wifi SSID
-// const char* password = "******"; // fill in here your router or wifi password
-
-const char* ssid = "4GCPESFC";      // fill in here your router or wifi SSID
-const char* password = "A1b2c3d4";  // fill in here your router or wifi password
+ const char* ssid = "******";     // fill in here your router or wifi SSID
+ const char* password = "******"; // fill in here your router or wifi password
 
 IPAddress  ip(192, 168, 100, 124);     // fill in here the desired IP Address
 IPAddress  gateway(192, 168, 100, 1);  // set gateway to match your network
